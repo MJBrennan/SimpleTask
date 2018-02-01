@@ -29,8 +29,7 @@ The profile picture should be saved to a directory that is not web-accessible.
 
 On load the user is presented   with a form   to fill out. They are   also given the ability to choose a file to upload. Once the user selects submit the data is passed to the backend. If the user has left any of the fields empty the user will be thrown an alert saying there is an error.
 
-Once the data is passed to the backend the image is first processed and then resized to 250 x 250 with the help of the Image Intervention Library. It is then placed in the storage folder with a new name. The rest of the data is put in the MySQL database through a database transaction using Laravel`s in built QueryBuilder. In addition  a path to the users image is inserted so it will be easily accessible later on. In addition the password is hashed for security purposes.
-
+Once the data is passed to the backend the image is first processed and then resized to 250 x 250 with the help of the Image Intervention Library. It is then placed in the storage/app/public folder with a new name. The rest of the data is put in the MySQL database through a database transaction using Laravel's in built QueryBuilder. In addition  a path to the users image is inserted so it will be easily accessible later on. Also the password is hashed for security purposes.
 
 
 
