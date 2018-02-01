@@ -64,10 +64,12 @@ routes/web.php contains the single route for the app
 Clone project into your environment with git clone
 Rename example.env to .env.
 Create a fresh database in your mysql client and create a connection to this database by filling out your database details in the .env file.
-Run php artisan key:generate
-Run npm install
-Run npm run dev to compile assets
-Run php artisan serve
+```
+ php artisan key:generate
+ npm install
+ npm run dev to compile assets
+ php artisan serve
+ ```
 Go to 127.0.0.1:8000 in your browser to check that the application is running
 
 
