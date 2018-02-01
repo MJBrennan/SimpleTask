@@ -1,4 +1,4 @@
-#Fusio Technical Interview
+# Fusio Technical Interview
 
 #### Task:
 
@@ -32,16 +32,21 @@ Finally once this task is successful the backend passes a message back to the fr
 
 
 Developed on Linux Ubuntu
+
 Langauge: PHP7
+
 Framework: Laravel 5.5
+
 Database: MySQL
+
 Frontend: VueJS, Bootstrap, HTMl and CSS
+
 
 Additional requirements:
 
 Requires GD Library image library
 
-Notes:
+####Notes:
 
 Main files used:
 
