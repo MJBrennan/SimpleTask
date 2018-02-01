@@ -88,6 +88,8 @@ details in the .env file.
 Run the following commands:
 
 ```
+ composer update
+ php artisan migrate
  php artisan key:generate
  npm install
  npm run dev 
