@@ -46,7 +46,7 @@ Additional requirements:
 
 Requires GD Library image library
 
-####Notes:
+#### Notes:
 
 Main files used:
 
@@ -67,8 +67,11 @@ routes/web.php contains the single route for the app
 
 
 Clone project into your environment with git clone
+
 Rename example.env to .env.
-Create a fresh database in your mysql client and create a connection to this database by filling out your database details in the .env file.
+
+Create a fresh database in your mysql client and create a connection to this database by filling out your database 
+details in the .env file.
 
 Run the following commands:
 

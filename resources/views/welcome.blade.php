@@ -98,7 +98,7 @@ body{
   </div>
   <div class="form-group">
     <label for="formGroupExampleInput2">Profile Picture</label>
-    <input type="file" v-on:change="onFileChange" class="form-control">
+    <input type="file" v-on:change="onFileChange" accept="image/*" class="form-control">
      </div>
   <div class="form-group">
     <button type="button"  v-on:click="submit()" class="btn btn-primary">Submit</button>

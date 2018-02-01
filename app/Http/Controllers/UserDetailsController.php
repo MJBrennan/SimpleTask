@@ -44,6 +44,10 @@ class UserDetailsController extends Controller
 		$image = $manager->make(storage_path().'/app/public/'.$file_name)->resize(250, 250);
 		$image->save(storage_path().'/app/public/'.$file_name);
 
+		//Hash password for secuity
+
+		$password = \Hash::make($password);
+
 		//Save all details in MySQL DB
 
 		\DB::table('user_details')->insert(
