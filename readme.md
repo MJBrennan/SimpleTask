@@ -52,6 +52,8 @@ Database: MySQL
 
 Frontend: VueJS, NPM, Bootstrap, HTML and CSS
 
+Database Backup: user_details.sql
+
 
 Additional requirements:
 
