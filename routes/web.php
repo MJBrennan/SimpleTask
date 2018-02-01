@@ -24,7 +24,5 @@ Route::post('/processusers','UserDetailsController@processusers');
 
 
 
-Route::view('/simpletest','upload');
-
 
 

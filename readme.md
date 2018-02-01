@@ -78,7 +78,11 @@ routes/web.php contains the single route for the app
 #### Install Steps:
 
 
-Clone project into your environment with git clone
+Clone project into your environment with
+
+```
+ git clone https://github.com/MJBrennan/fusio-interview
+ ```
 
 Rename example.env to .env.
 
