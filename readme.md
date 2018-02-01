@@ -1,6 +1,6 @@
 #Fusio Technical Interview
 
-####Task:
+#### Task:
 
 Create a form that takes the following inputs in from a form and saves the data to a database table and the server in the case of an image.
 
@@ -17,7 +17,7 @@ Profile Picture - Resized to 250 * 250px when it's uploaded
 The profile picture should be saved to a directory that is not web-accessible.
 
 
-####Overview of the app:
+#### Overview of the app:
 
 On load the user is presented   with a form   to fill out. They are   also given the ability to choose a file to upload. Once the user selects submit the data is passed to the backend. If the user has left any of the fields empty the user will be thrown an alert saying there is an error.
 
@@ -28,7 +28,7 @@ Finally once this task is successful the backend passes a message back to the fr
 
 
 
-####Technical Details:
+#### Technical Details:
 
 
 Developed on Linux Ubuntu
@@ -58,12 +58,15 @@ routes/web.php contains the single route for the app
 
 
 
-####Install Steps:
+#### Install Steps:
 
 
 Clone project into your environment with git clone
 Rename example.env to .env.
 Create a fresh database in your mysql client and create a connection to this database by filling out your database details in the .env file.
+
+Run the following commands:
+
 ```
  php artisan key:generate
  npm install
