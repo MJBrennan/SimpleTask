@@ -26,7 +26,7 @@ class UserDetailsController extends Controller
 		$country = $req->input('country');
 		$password = $req->input('password');
 
-	    //Process Image, Send to files
+	    //Process Image
 
 	   $file_data = $req->input('image');
 	   $file_name = 'image_'.time().'.png'; //generating unique file name; 
